@@ -1,0 +1,13 @@
+*
+{  
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(305deg, rgba(74,86,87,1) 0%, rgba(214,207,194,0.9902439024390244) 59%, rgba(181,201,205,1) 100%);
+}
