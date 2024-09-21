@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
         const nuevoLibro = { titulo, autor, año, genero };
         guardarLibroEnLocalStorage(nuevoLibro);
         mostrarLibrosEnTabla();
-        editarLibro(index);
+       
         formularioLibro.reset();
 
     });
