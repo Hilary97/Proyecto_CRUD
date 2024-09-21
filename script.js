@@ -57,3 +57,25 @@ function mostrarLibrosEnTabla() {
     contenedor.querySelector('table')?.remove();
     contenedor.insertAdjacentHTML('beforeend', tablaHTML);
 }
+
+
+// Función para editar un libro
+function editarLibro(index) {
+    const libros = obtenerLibros();
+    const libro = libros[index];
+    
+    const nuevoLibro = {
+        titulo: prompt("Ingrese el nuevo título:", libro.titulo),
+        autor: prompt("Ingrese el nuevo autor:", libro.autor),
+        año: prompt("Ingrese el nuevo año:", libro.año),
+        genero: prompt("Ingrese el nuevo género:", libro.genero)
+    };
+    
+    if (Object.values(nuevoLibro).every(valor => valor)) {
+        libros[index] = nuevoLibro;
+        actualizarLocalStorage(libros);
+        mostrarLibrosEnTabla();
+    } else {
+        alert("La edición fue cancelada o los datos ingresados no son válidos.");
+    }
+}
