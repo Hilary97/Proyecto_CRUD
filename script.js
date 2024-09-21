@@ -31,10 +31,12 @@ function actualizarLocalStorage(libros) {
 }
 
 function eliminarLibro(index) {
-    const libros = obtenerLibros();
-    libros.splice(index, 1);
+    if(confirm('¿Estás seguro de que deseas eliminar este libro?')) {
+        const libros = obtenerLibros();
+        libros.splice(index, 1);
     actualizarLocalStorage(libros);
-    mostrarLibrosEnTabla();
+        mostrarLibrosEnTabla();
+    }
 }
 function mostrarLibrosEnTabla() {
     const libros = obtenerLibros();

@@ -11,3 +11,14 @@
     border-radius: 10px;
     background: linear-gradient(305deg, rgba(74,86,87,1) 0%, rgba(214,207,194,0.9902439024390244) 59%, rgba(181,201,205,1) 100%);
 }
+footer
+{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+    color: #666;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1px; 
+    border-radius: 10px;
+    background: linear-gradient(305deg, rgba(74,86,87,1) 0%, rgba(214,207,194,0.9902439024390244) 59%, rgba(181,201,205,1) 100%);
+}
