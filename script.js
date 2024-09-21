@@ -16,12 +16,26 @@ document.addEventListener('DOMContentLoaded', ()=>{
     });
     
 });
+
 function guardarLibroEnLocalStorage(libro) {
     const libros = obtenerLibros();
     libros.push(libro);
     actualizarLocalStorage(libros);
 }
+function obtenerLibros() {
+    return JSON.parse(localStorage.getItem('libros')) || [];
+}
 
+function actualizarLocalStorage(libros) {
+    localStorage.setItem('libros', JSON.stringify(libros));
+}
+
+function eliminarLibro(index) {
+    const libros = obtenerLibros();
+    libros.splice(index, 1);
+    actualizarLocalStorage(libros);
+    mostrarLibrosEnTabla();
+}
 function mostrarLibrosEnTabla() {
     const libros = obtenerLibros();
     
