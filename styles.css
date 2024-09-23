@@ -1,17 +1,26 @@
 *
 {  
-    color: rgb(0, 0, 0);
+    color: #d6cfc2;
     font-family: 'Times New Roman', Times, serif;
    
     
 }
-
+h1
+{
+    color: #d6cfc2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#formularioLibro
+{
+    color: #d6cfc2;
+    
+}
 .container
 {
-    background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 10px;
-    background: linear-gradient(305deg, rgba(74,86,87,1) 0%, rgba(214,207,194,0.9902439024390244) 59%, rgba(181,201,205,1) 100%);
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
 }
 footer
 {
@@ -21,11 +30,12 @@ footer
     text-align: center;
     margin-top: 20px;
     font-size: 13px;
-    color: #666;
+    color: #000000;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 1px; 
     border-radius: 10px;
-    background: linear-gradient(305deg, rgba(74,86,87,1) 0%, rgba(214,207,194,0.9902439024390244) 59%, rgba(181,201,205,1) 100%);
+    
+    backdrop-filter: blur(10px);
 }
 body
 {
@@ -34,4 +44,5 @@ body
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
 }
