@@ -2,6 +2,8 @@
 {  
     color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
+   
+    
 }
 
 .container
@@ -13,6 +15,9 @@
 }
 footer
 {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     margin-top: 20px;
     font-size: 13px;
@@ -21,4 +26,12 @@ footer
     padding: 1px; 
     border-radius: 10px;
     background: linear-gradient(305deg, rgba(74,86,87,1) 0%, rgba(214,207,194,0.9902439024390244) 59%, rgba(181,201,205,1) 100%);
+}
+body
+{
+    background-image: url("https://df5kbf1hky40.cloudfront.net/media/library_center/hero-image/2019/03/20190326165931.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
