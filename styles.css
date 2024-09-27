@@ -1,9 +1,8 @@
 *
 {  
     color: #d6cfc2;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    font-family: 'Libre Baskerville', 'Georgia', serif;
+   
 }
 h1
 {
@@ -12,7 +11,7 @@ h1
 }
 #subtitulo
 {
-    font-size: 17px;
+    font-size: 19px;
     color: #d6cfc2;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 }
@@ -26,10 +25,12 @@ header
     text-align: center;
     margin-top: 20px;
     font-size: 13px;
-    /* color: #000000; */
-    background-color: rgba(0, 0, 0, 0.5);
+    /* backdrop-filter: blur(10px); */
+   
+    background-color: rgba(48, 29, 17, 0.5);
     padding: 1px; 
     border-radius: 10px;
+    
 }
 #formularioLibro
 {
@@ -42,21 +43,26 @@ header
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
+    font-size: 17px;
 }
-footer
+footer 
 {
     position: fixed;
     bottom: 0;
     width: 100%;
     text-align: center;
     margin-top: 20px;
-    font-size: 13px;
+    font-size: 14px;
     color: #000000;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 1px; 
     border-radius: 10px;
     
     backdrop-filter: blur(10px);
+}
+#footer
+{
+    font-size: 15px;
 }
 body
 {

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,7 @@
 <body>
     <header>
         <h1>Mi Biblioteca</h1>
-        <p id="subtitulo">" Bienvenido a tu biblioteca personal. Aquí puedes administrar tus libros."</p>
+        <h3 id="subtitulo">" Bienvenido a tu biblioteca personal. Aquí puedes administrar tus libros."</h3>
     </header>
     <div class="container mt-5">
         <h2 class="mb-4">Carga tus libros</h2>
@@ -28,7 +28,7 @@
                 <input type="number" class="form-control" id="año" required>
             </div>
             <div class="mb-3">
-                <label for="genero" class="form-label">Tipo de libro</label>
+                <label for="genero" class="form-label">Clasificacion del libro</label>
                 <select class="form-select" id="genero" required>
                     <option value="">Selecciona un género</option>
                     <option value="ficcion">Ficción</option>
@@ -43,7 +43,7 @@
     </div>
     <br><br>
     <footer>
-        <p>Proyecto CRUD de libros , Por Hilario Nava Jimenez.   'UCAMP 2024'</p>    
+        <p id="footer">Proyecto CRUD de libros , Por Hilario Nava Jimenez.   'UCAMP 2024'</p>    
     </footer>
 
     <script src="script.js"></script>
