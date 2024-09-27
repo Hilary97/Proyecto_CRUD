@@ -2,13 +2,34 @@
 {  
     color: #d6cfc2;
     font-family: 'Times New Roman', Times, serif;
-   
-    
+    font-size: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 h1
 {
     color: #d6cfc2;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+#subtitulo
+{
+    font-size: 17px;
+    color: #d6cfc2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+h2
+{
+    color: #d6cfc2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+header
+{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+    /* color: #000000; */
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1px; 
+    border-radius: 10px;
 }
 #formularioLibro
 {

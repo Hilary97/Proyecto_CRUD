@@ -8,8 +8,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <h1>Mi Biblioteca</h1>
+        <p id="subtitulo">" Bienvenido a tu biblioteca personal. Aquí puedes administrar tus libros."</p>
+    </header>
     <div class="container mt-5">
-        <h1 class="mb-4">Mi Biblioteca</h1>
+        <h2 class="mb-4">Carga tus libros</h2>
         <form id="formularioLibro">
             <div class="mb-3">
                 <label for="titulo" class="form-label">Título</label>
@@ -24,7 +28,7 @@
                 <input type="number" class="form-control" id="año" required>
             </div>
             <div class="mb-3">
-                <label for="genero" class="form-label">Género</label>
+                <label for="genero" class="form-label">Tipo de libro</label>
                 <select class="form-select" id="genero" required>
                     <option value="">Selecciona un género</option>
                     <option value="ficcion">Ficción</option>
